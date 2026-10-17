@@ -118,7 +118,7 @@ Runtime on a laptop: the full run is about 15 seconds; the test suite is under a
 | Lint (`ruff`) | Run locally, clean |
 | Mutation check: 12 deliberate bugs in split, features, cost and contract code | 12 caught after one survivor got its test (see `tests/test_report.py`) |
 | Figures | Rendered and looked at after the last change; one defect (empty chart) found and fixed that way |
-| CI workflow | Written, not yet run on GitHub |
+| CI workflow | First GitHub Actions run (2026-10-17) green: lint, tests, `make data run`, README check |
 | Real PaySim | Not run. Everything above is synthetic |
 | Python versions other than the one used locally | Not tested; CI targets 3.12 |
 
